@@ -1,0 +1,224 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     margin: 0;
+    padding: 0;
+    background-color: #c8c8c8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px; /* Dimensiunea fontului pentru titlu */
+    text-align: center; /* Aliniere la centru */
+    white-space: nowrap; /* Previne împărțirea pe mai multe linii */
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 17px; /* Dimensiunea fontului pentru titlu */
+    text-align: center; /* Aliniere la centru */
+    margin-bottom: 40 px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fontul Georgia */
+    font-style: italic; /* Text italic */
+}
+
+h4{
+    font-size: 18px;
+    text-align: center; /* Aliniere la centru */
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;}
+
+
+header {
+    position: relative;
+    height: 88vh; /* Înalțime completă a ferestrei */
+    background-image: url('imagini/e1.jpg5.jpg'); /* Imaginea de fundal */
+    background-size: cover; /* Acoperă întreaga zonă */
+    background-position: center; /* Centrul imaginii de fundal */
+
+}
+
+.cutii {
+    display: flex; /* Aliniere orizontală */
+    justify-content: space-between; /* Spațiere între containere */
+    margin: 20px 0; /* Margine superioară și inferioară */
+    gap: 20px; /* Spațiu între containere */
+}
+
+.box1 {
+    background-color: #e9ecef; /* Culoare de fundal */
+    color: black; /* Culoare text */
+    padding: 20px; /* Spațiu interior */
+    width: 25%; /* Ajustează lățimea pentru a fi mai mic */
+    height: 200px; /* Înălțimea dorită */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbre pentru efect */
+    border-radius: 15px; /* Colțuri rotunjite */
+    overflow: hidden; /* Ascunde depășirile */
+}
+
+.box2 {
+    background-color: #e9ecef; /* Culoare de fundal */
+    color: black; /* Culoare text */
+    padding: 20px; /* Spațiu interior */
+    width: 70%; /* Lățime pentru containerul 2 */
+    height: 200px; /* Poți ajusta înălțimea dacă este necesar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbre pentru efect */
+    border-radius: 15px; /* Colțuri rotunjite */
+    font-size: 15px;
+}
+
+.box1 img {
+    width: 100%; /* Lățimea 100% */
+    height: 100%; /* Înălțimea 100% */
+    object-fit: cover; /* Umple containerul păstrând proporțiile */
+    display: block; /* Elimină spațiile sub imagine */
+}
+
+  
+    
+.container {
+    background-color: #e9ecef; /* Culoarea de fundal */
+    color: black; /* Culoarea textului */
+    padding: 100px; /* Spațiu interior */
+    border-radius: 30px; /* Colțuri rotunjite */
+    width: 1200px; /* Lățimea containerului */
+    margin: 20px auto; /* Centrare pe pagină */
+    text-align: left; /* Aliniere text la stânga */
+    font-family: Georgia, serif; /* Fontul Georgia */
+    font-style: italic; /* Font italic */
+    font-size: 21px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%; /* Centrul vertical */
+    left: 50%; /* Centrul orizontal */
+    transform: translate(-50%, -50%); /* Centrul exact */
+    text-align: center;
+    color: white; /* Culoarea textului */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Umbră pentru text */
+    margin-bottom: 20px;
+}
+
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.timeline-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-item p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    stroke: #000;
+}
+
+
+
+
+h1 {
+    margin: 0;
+    font-size: 62px; /* Dimensiunea fontului pentru titlu */
+}
+
+h2 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #000; /* Fundal negru pentru butoane */
+    color: white; /* Culoare text alb pentru butoane */
+    border-radius: 5px; /* Colțuri rotunjite pentru butoane */
+    transition: background-color 0.3s, transform 0.3s; /* Efect de tranziție pentru hover */
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #444; /* Culoare la hover pentru butoane */
+    transform: scale(1.05); /* Mărirea butoanelor la hover */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 150px; /* Lățimea imaginilor */
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.catalog-item img {
+    width: 200px; /* Lățimea imaginilor */
+    height: auto;
+    border-radius: 5px;
+}
+
+.wedding-date {
+    font-size: 28px; /* Dimensiune mai mare pentru data nunții */
+    margin: 5px 0; /* Margine pentru paragrafe */
+    color: white; /* Culoare albă pentru text */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
